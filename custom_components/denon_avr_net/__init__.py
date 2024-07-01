@@ -9,7 +9,7 @@ from homeassistant.const import CONF_HOST, CONF_PORT, CONF_SWITCHES
 
 from .denon_tcp_client import DenonTcpClient
 
-DOMAIN = 'denon_avr_net'
+from .const import DOMAIN
 
 ATTR_HOST = 'host'
 ATTR_COMMAND = 'command'

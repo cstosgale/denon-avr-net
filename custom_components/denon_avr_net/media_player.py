@@ -12,7 +12,7 @@ import homeassistant.helpers.config_validation as cv
 from homeassistant.components.media_player import MediaPlayerEntity, SUPPORT_SELECT_SOURCE, SUPPORT_TURN_ON, SUPPORT_TURN_OFF
 from homeassistant.components.media_player import SUPPORT_VOLUME_MUTE, SUPPORT_VOLUME_SET, SUPPORT_VOLUME_STEP
 
-from . import DOMAIN
+from .const import DOMAIN
 from . import DenonTcpClient
 
 _LOGGER = logging.getLogger(__name__)

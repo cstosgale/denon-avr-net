@@ -10,8 +10,8 @@ from homeassistant.const import CONF_HOST, CONF_PORT, CONF_LIGHTS, CONF_ICON
 from homeassistant.core import callback
 from homeassistant.helpers import config_validation as cv, entity_platform, service
 
-from . import DOMAIN
-from .switch import DenonNetworkSwitch
+from .const import DOMAIN
+from switch import DenonNetworkSwitch
 
 _LOGGER = logging.getLogger(__name__)
 

@@ -11,7 +11,7 @@ from homeassistant.core import callback
 import homeassistant.helpers.config_validation as cv
 from homeassistant.components.switch import SwitchEntity
 
-from . import DOMAIN
+from .const import DOMAIN
 from . import DenonTcpClient
 
 _LOGGER = logging.getLogger(__name__)
